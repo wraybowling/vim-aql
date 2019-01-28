@@ -10,4 +10,4 @@ function! AqlIndent()
     return indent(previousNum) + &tabstop
   endif
 
-endFunction
+endfunction

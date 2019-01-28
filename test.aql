@@ -1,0 +1,4 @@
+LET isNotify = (FOR doc IN config
+  FILTER doc.id == 'notify'
+  RETURN doc.value._from)
+
